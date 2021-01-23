@@ -11,7 +11,10 @@ public class Date {
     }
 
     public Date(int day, int month, int year) {
+        set(day, month, year);
+    }
 
+    public void set(int day, int month, int year) {
         if ((day >= 1) && (day <= 31))
             this.day = day;
         else
@@ -28,6 +31,18 @@ public class Date {
             System.out.println("Invalid Year");
     }
 
+    public int getDay() {
+        return day;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
     public void printDate() {
         System.out.println(day + " - " + month + " - " + year);
     }
@@ -35,5 +50,9 @@ public class Date {
     public String toString() {
         String str = day + "-" + month + "-" + year;
         return str;
+    }
+
+    public boolean equals(Date dd) {
+        return day == dd.day && month == dd.month && year == dd.year;
     }
 }
