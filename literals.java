@@ -12,6 +12,5 @@ public class literals {
         System.out.print(age);// doesnot create new line
         String str = " Miskatur";
         System.out.println(str);// println creates new line
-
     }
 }
