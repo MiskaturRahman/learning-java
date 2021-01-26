@@ -10,5 +10,7 @@ class example {
         y = input.nextInt();
 
         System.out.printf("%d + %d = %d\n", x, y, (x + y));
+
+        input.close();
     }
 }
