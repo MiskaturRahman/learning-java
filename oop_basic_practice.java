@@ -42,6 +42,15 @@ class Square {
     }
 }
 
+class Rectangle {
+    int length;
+    int width;
+
+    public int Rectangle_area() {
+        return length * width;
+    }
+}
+
 class Tommy {
     public void hit() {
         System.out.println("Hitting the enemy");
@@ -76,6 +85,12 @@ public class oop_basic_practice {
         sq.side = 3;
         System.out.println(sq.area());
         System.out.println(sq.perimeter());
+
+        // problem 4
+        Rectangle area = new Rectangle();
+        area.length = 3;
+        area.width = 5;
+        System.out.println(area.Rectangle_area());
 
         // Problem 5
         Tommy player1 = new Tommy();
