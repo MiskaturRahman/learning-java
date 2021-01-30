@@ -1,4 +1,4 @@
-class Employee {
+class new_Employee {
     int id;
     int salary;
     String name;
@@ -18,8 +18,8 @@ public class simple_java_class {
     public static void main(String[] args) {
         System.out.println("This is a simple class");
 
-        Employee Miskatur = new Employee();// Instantiating
-        Employee Bro = new Employee();// Instantiating
+        new_Employee Miskatur = new new_Employee();// Instantiating
+        new_Employee Bro = new new_Employee();// Instantiating
 
         // Setting Attributes
         Miskatur.id = 1;
