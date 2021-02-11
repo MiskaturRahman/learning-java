@@ -8,6 +8,7 @@ public class inputExample {
         System.out.println("Enter to numbers on a line: ");
         System.out.println("Place comma between numbers: ");
         System.out.println("extra blank space is okay");
+
         String inputLine = keyboard.nextLine();
 
         String delimiter = ", ";
