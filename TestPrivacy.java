@@ -18,7 +18,7 @@ public class TestPrivacy {
     }
 
     public Date getDate() {
-        return d1;
+        return new Date(d1.getDay(), d1.getMonth(), d1.getYear());
     }
 
     public String toString() {
@@ -34,6 +34,7 @@ public class TestPrivacy {
         String s2 = testPrivacy.returnS();
         // s2[1] = 'B';
         Date d2 = testPrivacy.getDate();
+        // d2.setMonth(10);
 
         System.out.println(testPrivacy);
     }
