@@ -1,3 +1,4 @@
+package inheritance;
 
 public class Cylinder extends Circle {
 	private int height;
